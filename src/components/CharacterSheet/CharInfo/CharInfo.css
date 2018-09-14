@@ -1,0 +1,38 @@
+.ClassName {
+  text-align: center;
+}
+h2.title {
+  margin: 0px auto;
+  text-align: center;
+}
+
+.brute {
+  background: url(../../../assets/character/brute.svg) left center no-repeat;
+  background-size: contain;
+  background-origin: content-box;
+}
+.cragheart {
+  background: url(../../../assets/character/cragheart.svg) left center no-repeat;
+  background-size: contain;
+  background-origin: content-box;
+}
+.spellweaver {
+  background: url(../../../assets/character/spellweaver.svg) left center no-repeat;
+  background-size: contain;
+  background-origin: content-box;
+}
+.scoundrel {
+  background: url(../../../assets/character/scoundrel.svg) left center no-repeat;
+  background-size: contain;
+  background-origin: content-box;
+}
+.tinkerer {
+  background: url(../../../assets/character/tinkerer.svg) left center no-repeat;
+  background-size: contain;
+  background-origin: content-box;
+}
+.mindthief {
+  background: url(../../../assets/character/mindthief.svg) left center no-repeat;
+  background-size: contain;
+  background-origin: content-box;
+}

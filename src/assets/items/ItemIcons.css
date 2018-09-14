@@ -1,0 +1,27 @@
+.oneHand {
+  background: url('./icon-one-hand.svg') left center no-repeat;
+  background-size: contain;
+  background-position-x: 1px;
+}
+.twoHands {
+  background: url('./icon-two-hands.svg') left center no-repeat;
+  background-size: contain;
+}
+.chest {
+  background: url('./icon-chest.svg') left center no-repeat;
+  background-size: contain;
+}
+.helm {
+  background: url('./icon-helm.svg') left center no-repeat;
+  background-size: contain;
+  background-position-x: 4px;
+}
+.boots {
+  background: url('./icon-boots.svg') left center no-repeat;
+  background-size: contain;
+  background-position-x: 3px;
+}
+.consumable {
+  background: url('./icon-consumable.svg') left center no-repeat;
+  background-size: contain;
+}

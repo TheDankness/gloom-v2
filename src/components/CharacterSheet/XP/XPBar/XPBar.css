@@ -1,0 +1,27 @@
+.XPBarWrapper {
+  display: flex;
+  flex: row no-wrap;
+  align-items: center;
+}
+
+.XPBar {
+  border: 1px solid #000000;
+  width: 100%;
+  position: relative;
+  height: 12px;
+  box-sizing: border-box
+}
+
+.XPFill {
+  height: 10px;
+  background: #000000;
+  transition: all 500ms;
+}
+
+.xpMin {
+  margin-right: 6px;
+}
+
+.xpMax {
+  margin-left: 6px;
+}

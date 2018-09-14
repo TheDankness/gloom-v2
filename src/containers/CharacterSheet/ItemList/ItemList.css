@@ -1,0 +1,9 @@
+.itemList p {
+  padding-left: 32px;
+  width: 100%;
+  margin: 4px 0px;
+}
+
+.empty {
+  color: #DDD;
+}

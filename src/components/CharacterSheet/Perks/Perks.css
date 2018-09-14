@@ -1,0 +1,16 @@
+em.modifier {
+  border: 2px solid #000;
+  font-family: 'Pirata One', serif;
+  font-style: normal;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 1px 5px;
+}
+
+div.perk {
+  margin: 0 0 10px;
+}
+
+label.perk {
+  margin: 0px 0px 0px 10px;
+}

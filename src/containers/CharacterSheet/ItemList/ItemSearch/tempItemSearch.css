@@ -1,0 +1,14 @@
+ul.itemList {
+  margin: 0px;
+  padding: 0px;
+  height: 320px;
+  overflow-y: scroll;
+}
+
+.Slot{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 32px;
+  margin: 6px 0px;
+}

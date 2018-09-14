@@ -1,0 +1,15 @@
+.Box {
+  border: 2px solid #000;
+  padding: 16px;
+  margin: 4px 0px;
+  flex: 1 1 auto;
+  position: relative;
+}
+.Box::after {
+  content: url(../../assets/border-ornament.png);
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -21px;
+  margin-right: -2px;
+}

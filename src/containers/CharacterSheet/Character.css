@@ -1,0 +1,55 @@
+.Sheet {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 64px auto 0px;
+  justify-content: center;
+  align-items: stretch;
+  width: 960px;
+  height: 1140px;
+  background: white;
+  position: relative;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.Col1,
+.Col2 {
+  display: flex;
+  flex: 1 1 auto;
+  flex-flow: column nowrap;
+  align-content: stretch;
+  position: relative;
+  margin: 12px 16px;
+  width: 50%;
+}
+.Col1 {
+  margin-right: 4px;
+}
+.Col2 {
+  margin-left: 4px;
+}
+
+.inline { 
+  margin-bottom: 5px; 
+}
+
+.noFlex {
+  flex: 0 1 auto !important;
+}
+
+@media (min-width:320px) and (max-width:960px)  {
+  .Sheet {
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+    box-shadow: none;
+  }
+  .Col1, .Col2 {
+    width: 100%;
+    margin: 0;
+  }
+  .Col1 .Box:first-of-type {
+    margin-top: 0px;
+  }
+  .Col2 .Box:last-of-type {
+    margin-bottom: 16px;
+  }
+}
